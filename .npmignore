@@ -1,0 +1,42 @@
+# Source
+src
+sample
+
+# logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# lock
+yarn.lock
+package-lock.json
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# IDE - WebStorm
+.idea
+
+# MAC OS
+.DS_Store
+
+# Lint
+.eslintrc.json
+.eslintignore
+
+# Git
+.gitignore
+
+# Config
+tsconfig.json
+tsconfig.prod.json
+
+# Others
+nodemon.json
